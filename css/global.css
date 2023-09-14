@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap');
 
 :root {
-    --primary: #1e2f54;
-    --secondary: #d31a22;
+    --primary: #35B3AF;
     --white: #fff;
     --light-grey: #f5f5f5;
-    --black: #363536;
+    --black: #111320;
     --boxShadow: 0px 3px 6px #00000029;
     --borderRadius: 26px;
     --overlay: var(--black);
@@ -88,6 +87,14 @@ p.width-50 {
     background-color: var(--black);
 }
 
+.section.black h1,
+.section.black h2,
+.section.black h3,
+.section.black p {
+    color: var(--white);
+}
+
+
 .section.grey {
     background-color: var(--light-grey);
 }
@@ -136,7 +143,7 @@ p.width-50 {
     color: var(--white);
     background-color: var(--primary);
     border: 1px solid var(--primary);
-    border-radius: 9px;
+    border-radius: 5px;
     padding: 10px 15px;
     transition: var(--transition); 
 }
