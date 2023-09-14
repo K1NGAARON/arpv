@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
     --primary: #35B3AF;
@@ -18,7 +18,7 @@ html {
 
 * {
     box-sizing: border-box;
-    font-family: Montserrat;
+    font-family: Roboto;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ html {
 h1,
 h2,
 h3 {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h1 {
@@ -137,7 +137,7 @@ p.width-50 {
 
 .btn {
     width: fit-content;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
     text-align: center;
     color: var(--white);
@@ -197,14 +197,6 @@ p.width-50 {
     z-index: 3;
 }
 
-.section.contact h2 {
-    max-width: 45%;
-}
-
-.section.contact .row.flex-col {
-    align-items: flex-start;
-}
-
 .form-wrapper {
     display: flex;
     width: 80%;
@@ -254,25 +246,6 @@ p.width-50 {
 
 .form-wrapper .btn:hover {
     transform: scale(1.02);
-}
-
-.animated.wrapper {
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.animated.wrapper .item {
-    flex: 1 0 30%;
-}
-
-.animated.wrapper .item .animated-number {
-    font-size: 36px;
-    font-weight: 600;
-    color: var(--secondary);
-}
-
-.animated.wrapper .item p {
-    font-size: 20px;
 }
 
 .cookie-banner-wrapper {

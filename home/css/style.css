@@ -1,6 +1,6 @@
 .banner {
     justify-content: center;
-    height: 80vh;
+    height: 100vh;
     background-image: url('/home/img/banner.jpg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -18,12 +18,65 @@
     text-align: center;
 }
 
-.banner .overlay {
+.banner .overlay,
+.services .overlay {
     opacity: 0.8;
 }
 
 .banner .btn-wrapper {
     gap: 40px;
+}
+
+.reviews,
+.reviews .row {
+    height: 40vh;
+}
+
+.reviews.section .row .review-wrapper {
+    flex-direction: column;
+}
+
+.reviews.section .row .review-wrapper .review-author {
+    color: var(--primary);
+}
+
+.dots {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dots .dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--primary);
+}
+
+.dots .dot.active {
+    background-color: var(--primary);
+}
+
+.services.section {
+    justify-content: center;
+    height: 30vh;
+    background-image: url('/home/img/services.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.services .row {
+    z-index: 99;
+}
+
+.services h2 {
+    color: var(--white);
+}
+
+.services-wrapper .item {
+
 }
 
 @media (max-width: 560px) {
