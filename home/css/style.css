@@ -15,7 +15,7 @@
 
 .banner h1,
 .banner p {
-    width: 60%;
+    text-align: center;
 }
 
 .banner .overlay {
