@@ -55,6 +55,10 @@
     transition: var(--transition);
 }
 
+.dots .dot:hover {
+    cursor: pointer;
+}
+
 .dots .dot.active {
     opacity: 1;
     transition: var(--transition);
