@@ -79,7 +79,22 @@
 }
 
 .services-wrapper .item {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 12px;
+}
 
+.services-wrapper .item img {
+    width: 50px;
+}
+
+.services-wrapper .item .item-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-wrapper .item a {
+    margin-top: 20px;
 }
 
 @media (max-width: 560px) {
