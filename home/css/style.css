@@ -62,7 +62,8 @@
 
 .services.section {
     justify-content: center;
-    height: 30vh;
+    height: 40vh;
+    min-height: fit-content;
     background-image: url('/home/img/services.jpg');
     background-repeat: no-repeat;
     background-position: center center;
