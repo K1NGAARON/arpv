@@ -42,8 +42,16 @@
     width: 150px;
 }
 
+.footer-logo {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 26px;
+}
+
 .header .nav-logo {
     margin-right: auto;
+    font-weight: 700;
+    font-size: 26px;
 }
 
 .header .container {
