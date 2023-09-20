@@ -1,0 +1,22 @@
+.banner {
+    justify-content: center;
+    height: 50vh;
+    background-image: url('/home/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner .row {
+    color: var(--white);
+    z-index: 10;
+}
+
+.banner h1 {
+    font-size: 46px;
+}
+
+.banner .overlay {
+    opacity: 0.8;
+}
