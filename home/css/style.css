@@ -66,8 +66,8 @@
 
 .services.section {
     justify-content: center;
-    height: 40vh;
-    min-height: fit-content;
+    /* height: 40vh; */
+    /* min-height: fit-content; */
     background-image: url('/home/img/services.jpg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -84,6 +84,7 @@
 }
 
 .services-wrapper .item {
+    flex: 1 0 350px;
     background-color: var(--white);
     padding: 20px;
     border-radius: 12px;
