@@ -112,4 +112,8 @@
     .banner p {
         width: 100%;
     }
+
+    .section.about .row {
+        flex-flow: row wrap-reverse;
+    }
 }

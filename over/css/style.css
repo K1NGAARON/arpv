@@ -20,3 +20,9 @@
 .banner .overlay {
     opacity: 0.8;
 }
+
+@media (max-width: 560px) {
+    .section.about .row {
+        flex-flow: row wrap-reverse;
+    }
+}
