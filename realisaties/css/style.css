@@ -55,4 +55,8 @@
     .banner p {
         width: 100%;
     }
+
+    .section.gallery .gallery-wrapper .item {
+        flex: 1 0 30%;
+    }
 }
