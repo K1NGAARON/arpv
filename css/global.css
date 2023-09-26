@@ -285,6 +285,10 @@ p.width-50 {
     h2 {
         font-size: 26px;
     }
+
+    p.width-50 {
+        width: 100%;
+    }
 }
 
 @media (max-width: 1000px) {
