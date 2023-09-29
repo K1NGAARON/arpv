@@ -21,6 +21,17 @@
     opacity: 0.8;
 }
 
+.image-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.image-wrapper img:nth-of-type(2) {
+    width: 30%;
+}
+
 @media (max-width: 560px) {
     .section.about .row {
         flex-flow: row wrap-reverse;
