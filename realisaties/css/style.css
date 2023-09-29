@@ -31,9 +31,13 @@
 }
 
 .section.gallery .gallery-wrapper .item {
-    flex: 1 0 20%;
+    flex: 1 0 30%;
     justify-content: flex-end;
     overflow: hidden;
+}
+
+.section.gallery .gallery-wrapper .item.large {
+    flex: 1 0 55%;
 }
 
 .section.gallery .gallery-wrapper .item:hover img {
