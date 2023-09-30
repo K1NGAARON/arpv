@@ -103,7 +103,7 @@
 
 @media (max-width: 560px) {
     .banner {
-        height: fit-content;
+        height: 50vh;
     }
 
     .banner h1,
@@ -113,5 +113,9 @@
 
     .section.about .row {
         flex-flow: row wrap-reverse;
+    }
+
+    .services-wrapper .item {
+        flex: 1 0 100%;
     }
 }
