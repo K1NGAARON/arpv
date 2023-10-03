@@ -58,9 +58,41 @@
     justify-content: flex-start;
 }
 
-.reviews, .reviews .row {
-    min-height: fit-content;
+.reviews,
+.reviews .row {
     height: 40vh;
+}
+
+.reviews.section .row .review-wrapper {
+    flex-direction: column;
+}
+
+.reviews.section .row .review-wrapper .review-author {
+    color: var(--primary);
+}
+
+.dots {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dots .dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    opacity: 0.4;
+    transition: var(--transition);
+}
+
+.dots .dot:hover {
+    cursor: pointer;
+}
+
+.dots .dot.active {
+    opacity: 1;
+    transition: var(--transition);
 }
 
 @media (max-width: 560px) {
