@@ -58,6 +58,7 @@
 .section.gallery .gallery-wrapper .item .content h3,
 .section.gallery .gallery-wrapper .item .content a {
     color: var(--white);
+    text-align: center;
 }
 
 .section.gallery .gallery-wrapper .item .overlay {
