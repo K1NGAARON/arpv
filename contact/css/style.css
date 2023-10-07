@@ -31,4 +31,12 @@
     .banner p {
         width: 100%;
     }
+
+    .banner.section {
+        height: 140vh;
+    }
+
+    .banner .row .col h1 {
+        font-size: 24px;
+    }
 }

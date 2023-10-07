@@ -103,7 +103,11 @@
 
 @media (max-width: 560px) {
     .banner {
-        height: 50vh;
+        height: 70vh;
+    }
+
+    .reviews.section {
+        height: 70vh;
     }
 
     .banner h1,

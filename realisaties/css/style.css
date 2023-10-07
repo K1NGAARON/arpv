@@ -134,4 +134,16 @@
     .section.gallery .gallery-wrapper .item {
         flex: 1 0 30%;
     }
+
+    .section.gallery .gallery-wrapper .item .content h3 {
+        font-size: 14px;
+    }
+
+    .section.gallery .gallery-wrapper .item .content a {
+        font-size: 12px;
+    }
+
+    .reviews.section {
+        height: 70vh;
+    }
 }
