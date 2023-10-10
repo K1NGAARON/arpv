@@ -170,7 +170,7 @@ function openImageModal(event) {
     modalContainer.style.display = "block";
     overlay.style.display = "block";
 
-    disableScroll();
+    // disableScroll();
 
     // Close the modal and overlay when the close button is clicked
     closeBtn.addEventListener("click", () => {
@@ -180,7 +180,7 @@ function openImageModal(event) {
         // Remove the modal container and overlay from the DOM when closed
         document.body.removeChild(modalContainer);
         document.body.removeChild(overlay);
-        enableScroll();
+        // enableScroll();
     });
 
     // Close the modal and overlay if the user clicks outside of it
