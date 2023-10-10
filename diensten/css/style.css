@@ -27,4 +27,8 @@
     .section:nth-of-type(4) .row {
         flex-flow: row wrap-reverse;
     }
+
+    .banner.section {
+        height: 70vh;
+    }
 }
