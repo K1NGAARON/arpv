@@ -106,7 +106,6 @@ function addProjects(e) {
         return;
     }
 
-
     const cards = projects.map(item => {
 
         return `
@@ -204,10 +203,5 @@ popUpImages.forEach((image) => {
 
 
 
-
-
-
 $(document).ready(addProjects);
-
-
 $('.dot').click(changeReviews);
