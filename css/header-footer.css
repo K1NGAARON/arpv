@@ -128,7 +128,8 @@
 .made-by {
     width: 100%;
     max-width: 1200px;
-    display: flex;
+    /* display: flex; */
+    display: none;
     justify-content: center;
     margin: 0 auto;
     padding: 10px;
