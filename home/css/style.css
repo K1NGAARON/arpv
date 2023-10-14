@@ -115,11 +115,19 @@
         width: 100%;
     }
 
+    .banner.section .row h1 {
+        font-size: 30px;
+    }
+
     .section.about .row {
         flex-flow: row wrap-reverse;
     }
 
     .services-wrapper .item {
         flex: 1 0 100%;
+    }
+
+    .services-wrapper h3 {
+        font-size: 24px;
     }
 }
