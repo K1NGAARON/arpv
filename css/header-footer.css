@@ -39,7 +39,7 @@
 
 .header .logo,
 .footer .logo {
-    width: 150px;
+    width: 125px;
 }
 
 .footer-logo {
@@ -169,7 +169,7 @@
 
     .header .topnav-content-sm svg {
         fill: var(--white);
-        width: 40px;
+        width: 35px;
     }
 
     .header .topnav-content-sm svg:hover {
@@ -178,6 +178,6 @@
 
     .header .logo,
     .footer .logo {
-        width: 100px;
+        width: 75px;
     }
 }
