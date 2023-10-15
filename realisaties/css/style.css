@@ -208,6 +208,16 @@ h3 {
     z-index: 999;
 }
 
+.image-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container img {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
 @media (max-width: 560px) {
     .banner h1,
     .banner p {
@@ -236,5 +246,9 @@ h3 {
     
     .modal-content {
         width: 100%;
+    }
+
+    .image-container img {
+        max-width: 100%;
     }
 }
